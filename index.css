@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10;
+    font-family: 'Jost', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+p{
+    color: black;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+}
+
+
+/*---------- label section---------- */
+#label{
+    background-image: url("./imgs/header_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    position: relative;
+    z-index: -1;
+}
+
+#label::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #304E6A;
+    opacity: .7;
+    z-index: -1;
+}
+
+#label .label{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    justify-content: 50px;
+}
+
+#label h1{
+    color: white;
+    display: block;
+    width: 50%;
+    font-size: 2.5rem;
+    position: relative;
+    letter-spacing: 0.2rem;
+}
+
+#label p{
+    color: white;
+    display: block;
+    width: 50%;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+a, #label .explore{
+    display: inline-block;
+    padding: 20px 10px;
+    color: white;
+    background-color: #579BDA;
+    width: 25%;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.1rem;
+    letter-spacing: .05rem;
+    margin-top: 30px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+a, #label .explore:hover {
+    background-color: #304E6A;
+    cursor: pointer;
+}
+
+
+/*---------- label section end---------- */
+
+/* service - start */
+
+#services{
+
+}
+
+#services .service{
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#services .section-title{
+    font-size: 4 rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+#services .service-top p{
+    color: black;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+}
+
+#services .service-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#services .service-item{
+    flex-basis: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url(./imgs/card-img.jpg);
+    background-size: cover;
+    margin: 10px 5%;
+    color: white;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#services .service-item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg,#29323c 0%,#485563 100%);
+    opacity: .8;
+    z-index: -1;
+}
+
+#services .service-bottom .icon{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+#services .service-bottom .icon img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#services .service-item h2{
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#services .service-item p{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+}
+
+
+
+/* service - end */
+
