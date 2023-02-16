@@ -6,33 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seempahore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
+
     <!-- navbar start -->
     <section id="header">
-         <div class="header container">
-            <div class="nar-bar">
+        <div class="header container">
+            <div class="nav-bar">
                 <div class="brand">
-                    <a href="#hero"><h1>Seemaphore</h1></a>
+                    <a href="#label">
+                        <h1>Seemaphore</h1>
+                    </a>
                 </div>
                 <div class="nav-list">
-                    <div class="hamburger"><div class="bar"></div></div>
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Service</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contract</a></li>
-                        
-
+                        <li><a href="#label" data-after="Home">Home</a></li>
+                        <li><a href="#about" data-after="About">About</a></li>
+                        <li><a href="#services" data-after="Service">Services</a></li>
+                        <li><a href="#projects" data-after="Projects">Projects</a></li>
+                        <li><a href="#contacts" data-after="Contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
-         </div>
+        </div>
     </section>
     <!-- navbar end -->
 
@@ -45,13 +49,36 @@
                 <p>Lorem ipsum dolor sit amet consectetur. Pulvinar viverra sit eleifend feugiat. Erat pretium urna
                     scelerisque pulvinar mauris molestie hendrerit vitae elit. Sapien ut turpis. Lorem ipsum dolor sit
                     amet consectetur. Pulvinar viverra sit eleifend feugiat.</p>
-                <a href="https://github.com/ShaifArfan/one-page-website-html-css-project/blob/master/index.html"
-                    type="button" class="explore">Explore more</a>
-
+                <a class="explore" href="#" type="button">Explore more</a>
             </div>
         </div>
     </section>
     <!-- ---------label section--------- -->
+
+    <!-- About us -start -->
+
+    <section id="about">
+        <div class="about container">
+            <div class="col-left">
+                <div class="about-img">
+                    <img src="./imgs/about_pic.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-right">
+                <h1 class="section-title">About</h1>
+                <h2>ENTERPRISE SOFTWARE DEVELOPMENT</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus fugiat veniam tempore ipsam
+                    iure ut in velit asperiores quas molestiae fuga blanditiis quaerat, sint quidem!Lorem ipsum dolor,
+                    sit amet consectetur adipisicing elit. Voluptatibus fugiat veniam tempore ipsamLorem ipsum dolor,
+                    sit amet consectetur adipisicing elit. Voluptatibus fugiat veniam tempore ipsam
+                </p>
+                <a href="#" class="explore">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about us - end -->
+
 
     <!-- service secyion -start -->
 
@@ -108,6 +135,144 @@
     <!-- service secyion - end -->
 
 
+    <!-- project section - start -->
+    <section id="projects">
+        <div class="projects container">
+            <div class="projects-header">
+                <h1 class="section-title">Recent Projects</h1>
+            </div>
+            <div class="all-projects">
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 1</h1>
+                        <h2>Cloud computing</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem veniam laboriosam obcaecati
+                            facere molestias, recusandae inventore ipsum explicabo enim delectus sint sapiente eligendi
+                            fugit dicta quibusdam eius dolore pariatur dolorum!</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./imgs/card-img.jpg" alt="hehoo">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 2</h1>
+                        <h2>Cloud computing</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem veniam laboriosam obcaecati
+                            facere molestias, recusandae inventore ipsum explicabo enim delectus sint sapiente eligendi
+                            fugit dicta quibusdam eius dolore pariatur dolorum!</p>
+
+                    </div>
+                    <div class="project-img">
+                        <img src="./imgs/card-img.jpg" alt="hehoo">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 3</h1>
+                        <h2>Cloud computing</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem veniam laboriosam obcaecati
+                            facere molestias, recusandae inventore ipsum explicabo enim delectus sint sapiente eligendi
+                            fugit dicta quibusdam eius dolore pariatur dolorum!</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./imgs/card-img.jpg" alt="hehoo">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 4</h1>
+                        <h2>Cloud computing</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem veniam laboriosam obcaecati
+                            facere molestias, recusandae inventore ipsum explicabo enim delectus sint sapiente eligendi
+                            fugit dicta quibusdam eius dolore pariatur dolorum!</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./imgs/card-img.jpg" alt="hehoo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- project section end  -->
+
+    <!-- contact - start  -->
+    <section id="contacts">
+        <div class="contacts container">
+            <div class="contact-box">
+                <div class="left"></div>
+                <div class="right">
+                    <h2>Contact Us</h2>
+                    <input type="text" class="field" placeholder="Your Name">
+                    <input type="email" class="field" placeholder="Your Email">
+                    <input type="text" class="field" placeholder="Your Phone">
+                    <textarea class="field area " id="" placeholder="Message"></textarea>
+                    <button class="btn">Send</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact - end  -->
+
+    <!-- footer-start -->
+
+    <footer class="footer">
+        <div class="footer-left">
+            <h1>Seemaphore</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia at quis eligendi numquam exercitationem
+                deleniti minus magni incidunt, impedit a laborum esse nihil ab dolorum nulla beatae quos minima soluta!
+            </p>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+            </div>
+        </div>
+        <ul class="footer-right">
+            <li>
+                <h2>Product</h2>
+                <ul class="box">
+                    <li><a href="#">Theme Design</a></li>
+                    <li><a href="#">Theme Design</a></li>
+                    <li><a href="#">Theme Design</a></li>
+                    <li><a href="#">Theme Design</a></li>
+                    <li><a href="#">Theme Design</a></li>
+
+                </ul>
+            </li>
+            <li class="features">
+                <h2>Useful links</h2>
+                <ul class="box">
+                    <li><a href="#">Theme Design</a></li>
+                    <li><a href="#">Theme Design</a></li>
+                    <li><a href="#">Theme Design</a></li>
+                    <li><a href="#">Theme Design</a></li>
+                    <li><a href="#">Theme Design</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <h2>Address</h2>
+                <ul class="box">
+                    <li><a href="#">Theme Design</a></li>
+                    <li><a href="#">Theme Design</a></li>
+                    <li><a href="#">Theme Design</a></li>
+                    <li><a href="#">Theme Design</a></li>
+                    <li><a href="#">Theme Design</a></li>
+
+                </ul>
+            </li>
+        </ul>
+        <div class="footer-bottom">
+            <p>All Rights reverved by &copy;Seemaphore 2023 </p>
+        </div>
+    </footer>
+
+    <!-- footer-end -->
+
+    <!-- javascript -->
+    <script src="./index.js"></script>
 
 
 </body>
